@@ -1,3 +1,3 @@
 # Crosstable
 
-This is a simble web-app for Turnament-Crosstables, for example in chess roundturnaments (each vs each).
+This is a simple web-app for tournament-crosstables, for example in chess round tournament (each vs each).
