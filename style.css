@@ -1,0 +1,16 @@
+body {
+  font-size: 24px;
+}
+
+table * {
+  padding: 2px 5px;
+}
+
+
+table tr:nth-child(2n) {
+  padding: 2px;
+}
+
+*:not(.printable *, .printable) {
+  display: none;
+}
