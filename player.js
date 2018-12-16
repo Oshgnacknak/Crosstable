@@ -31,6 +31,12 @@ export default class Player {
         event.preventDefault();
         let point;
         switch (event.key) {
+          case "Backspace":
+          case "Delete":
+            this.points[i] = null;
+            players[i].points[this.id] = null;
+            updatePlayerTable();
+            return;
           case "1":
             point = 1;
             break;
