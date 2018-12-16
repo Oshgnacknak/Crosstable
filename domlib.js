@@ -26,5 +26,12 @@ function updatePlayerTable() {
   }
 }
 
+function onEnter(callback) {
+  return function(event) {
+    if (event.keyCode == 13) {
+      callback(event);
+    }
+  }
+}
 
-export {createElement, updatePlayerTable};
+export {createElement, updatePlayerTable, onEnter};
