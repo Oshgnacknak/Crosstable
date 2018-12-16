@@ -4,7 +4,6 @@ This is a simple web-app for tournament-crosstables, for example in chess round 
 
 ### TODO:
 - A rang list next to the crosstable
-- remove player
 - styles for printing
 ### GH-Pages
 https://oshgnacknak.github.io/Crosstable/
